@@ -1,3 +1,10 @@
+:root {
+  --primaty-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+}
+
 .hidden-title {
   width: 1px;
   height: 1px;
@@ -5,4 +12,249 @@
   margin: 0;
   opacity: 0;
   margin-top: -1px;
+}
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primaty-text-color);
+
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* колір осоновного тексту #757575; */
+/* вторинний колір тексту #212121 ; */
+/* #FFFFFF; */
+/* акцент #2196F3; */
+/* вторинний колір фону #2F303A; */
+
+.header-page {
+  background-color: var(--primary-white-color);
+}
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+
+  Font style: 700;
+  Font size: 26px;
+  Line height: 1.19;
+  Vertical align: Top;
+  Letter spacing: 3%;
+}
+.header-logo {
+  color: #000000;
+}
+
+/* site-nav */
+.site-nav .link {
+  color: var(--title-text-color);
+
+  Font style: 500;
+  Font size: 14px;
+  Line height: 1.14;
+  Letter spacing: 2%;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Contacts */
+.header-contacts .link {
+  color: var(--primaty-text-color);
+
+  Font style: 500;
+  Font size: 14px;
+  Line height: 1.14;
+  Letter spacing: 2%;
+}
+
+.header-contacts .link:hover,
+.header-contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero {
+  background-color: #2f303a;
+  color: var(--primary-white-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+
+  Font style: Black;
+  Font size: 44px;
+  Line height: 1.36;
+  Align: Center;
+  Letter spacing: 6%;
+}
+
+.hero-button {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+
+  Font family: inherit;
+  Font style: 700;
+  Font size: 16px;
+  Line height: 1.87;
+  Align: Center;
+  Letter spacing: 6%;
+}
+
+/* Features */
+
+.features {
+  background-color: #E5E5E5;
+}
+
+.features-title {
+  color: var(--title-text-color);
+
+  Font style: 700;
+  Font size: 14px;
+  Line height: 1.14;
+  Letter spacing: 3%;
+}
+
+.features-description {
+
+  Font style: 400;
+  Font size: 14px;
+  Line height: 1.71;
+  Letter spacing: 3%;
+}
+
+/* what we do */
+.what-we-do {
+  background-color: #E5E5E5;
+}
+.what-we-do-title {
+  color: var(--title-text-color);
+
+  Font style: 700;
+  Font size: 36px;
+  Line height: 1.16;
+  Align: Center;
+  Letter spacing: 3%;
+}
+
+/* team */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.team-title {
+  color: var(--title-text-color);
+  
+  Font style: 700;
+  Font size: 36px;
+  Line height: 1.16;
+  Align: Center;
+  Letter spacing: 3%;
+}
+ .item-title {
+  color: var(--title-text-color);
+
+  Font style: 500;
+  Font size: 16px;
+  Line height: 1.18;
+  Align: Center;
+  Letter spacing: 3%;
+}
+
+.item-position {
+
+  Font style: 400;
+  Font size: 16px;
+  Line height: 1.18;
+  Align: Center;
+  Letter spacing: 3%;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer-logo {
+  color: var(--primary-white-color);
+}
+
+.footer-contacts .link {
+  color: var(--primary-white-color);
+
+  Font style: 400;
+  Font size: 14px;
+  Line height: 1.71;
+  Letter spacing: 3%;
+}
+
+.footer-contacts .address {
+  color: rgba(255, 255, 255, 0.6);
+
+  Font style: 400;
+  Font size: 14px;
+  Line height: 1.71;
+  Letter spacing: 3%;
+}
+
+.footer-contacts .link:hover,
+.footer-contacts .link:focus,
+.footer-contacts .address:hover,
+.footer-contacts .address:focus {
+  color: var(--accent-color);
+}
+
+/* works */
+
+.our-works {
+  background-color: #E5E5E5;
+}
+.works-button {
+  color: var(--title-text-color);
+
+  Font family: inherit;
+  Font style: 500;
+  Font size: 16px;
+  Line height: 1.62;
+  Align: Center;
+  Letter spacing: 3%;
+}
+
+.works-button:hover,
+.works-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.works-title {
+  color: var(--title-text-color);
+
+  Font style: 700;
+  Font size: 18px;
+  Line height: 2.0;
+  Letter spacing: 6%;
+}
+
+.works-description {
+
+  Font style: 400;
+  Font size: 16px;
+  Line height: 1.87;
+  Letter spacing: 3%;
 }
