@@ -44,7 +44,7 @@ a {
   font style: 700;
   font size: 26px;
   line height: 1.19;
-  vertical align: Top;
+  vertical align: top;
   letter spacing: 3%;
 }
 .header-logo {
@@ -95,10 +95,10 @@ a {
 .hero-title {
   color: var(--primary-white-color);
 
-  font style: Black;
+  font style: black;
   font size: 44px;
   line height: 1.36;
-  align: Center;
+  align: center;
   letter spacing: 6%;
 }
 
@@ -110,7 +110,7 @@ a {
   font style: 700;
   font size: 16px;
   line height: 1.87;
-  align: Center;
+  align: center;
   letter spacing: 6%;
 }
 
@@ -147,7 +147,7 @@ a {
   font style: 700;
   font size: 36px;
   line height: 1.16;
-  align: Center;
+  align: center;
   letter spacing: 3%;
 }
 
@@ -163,7 +163,7 @@ a {
   font style: 700;
   font size: 36px;
   line height: 1.16;
-  align: Center;
+  align: center;
   letter spacing: 3%;
 }
  .item-title {
@@ -172,7 +172,7 @@ a {
   font style: 500;
   font size: 16px;
   line height: 1.18;
-  align: Center;
+  align: center;
   letter spacing: 3%;
 }
 
@@ -181,7 +181,7 @@ a {
   font style: 400;
   font size: 16px;
   line height: 1.18;
-  align: Center;
+  align: center;
   letter spacing: 3%;
 }
 
@@ -232,7 +232,7 @@ a {
   font style: 500;
   font size: 16px;
   line height: 1.62;
-  align: Center;
+  align: center;
   letter spacing: 3%;
 }
 
