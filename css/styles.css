@@ -41,11 +41,11 @@ a {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
 
-  Font style: 700;
-  Font size: 26px;
-  Line height: 1.19;
-  Vertical align: Top;
-  Letter spacing: 3%;
+  font style: 700;
+  font size: 26px;
+  line height: 1.19;
+  vertical align: Top;
+  letter spacing: 3%;
 }
 .header-logo {
   color: #000000;
@@ -55,10 +55,10 @@ a {
 .site-nav .link {
   color: var(--title-text-color);
 
-  Font style: 500;
-  Font size: 14px;
-  Line height: 1.14;
-  Letter spacing: 2%;
+  font style: 500;
+  font size: 14px;
+  line height: 1.14;
+  letter spacing: 2%;
 }
 
 .site-nav .link:hover,
@@ -74,10 +74,10 @@ a {
 .header-contacts .link {
   color: var(--primaty-text-color);
 
-  Font style: 500;
-  Font size: 14px;
-  Line height: 1.14;
-  Letter spacing: 2%;
+  font style: 500;
+  font size: 14px;
+  line height: 1.14;
+  letter spacing: 2%;
 }
 
 .header-contacts .link:hover,
@@ -95,23 +95,23 @@ a {
 .hero-title {
   color: var(--primary-white-color);
 
-  Font style: Black;
-  Font size: 44px;
-  Line height: 1.36;
-  Align: Center;
-  Letter spacing: 6%;
+  font style: Black;
+  font size: 44px;
+  line height: 1.36;
+  align: Center;
+  letter spacing: 6%;
 }
 
 .hero-button {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 
-  Font family: inherit;
-  Font style: 700;
-  Font size: 16px;
-  Line height: 1.87;
-  Align: Center;
-  Letter spacing: 6%;
+  font family: inherit;
+  font style: 700;
+  font size: 16px;
+  line height: 1.87;
+  align: Center;
+  letter spacing: 6%;
 }
 
 /* Features */
@@ -123,18 +123,18 @@ a {
 .features-title {
   color: var(--title-text-color);
 
-  Font style: 700;
-  Font size: 14px;
-  Line height: 1.14;
-  Letter spacing: 3%;
+  font style: 700;
+  font size: 14px;
+  line height: 1.14;
+  letter spacing: 3%;
 }
 
 .features-description {
 
-  Font style: 400;
-  Font size: 14px;
-  Line height: 1.71;
-  Letter spacing: 3%;
+  font style: 400;
+  font size: 14px;
+  line height: 1.71;
+  letter spacing: 3%;
 }
 
 /* what we do */
@@ -144,11 +144,11 @@ a {
 .what-we-do-title {
   color: var(--title-text-color);
 
-  Font style: 700;
-  Font size: 36px;
-  Line height: 1.16;
-  Align: Center;
-  Letter spacing: 3%;
+  font style: 700;
+  font size: 36px;
+  line height: 1.16;
+  align: Center;
+  letter spacing: 3%;
 }
 
 /* team */
@@ -160,29 +160,29 @@ a {
 .team-title {
   color: var(--title-text-color);
   
-  Font style: 700;
-  Font size: 36px;
-  Line height: 1.16;
-  Align: Center;
-  Letter spacing: 3%;
+  font style: 700;
+  font size: 36px;
+  line height: 1.16;
+  align: Center;
+  letter spacing: 3%;
 }
  .item-title {
   color: var(--title-text-color);
 
-  Font style: 500;
-  Font size: 16px;
-  Line height: 1.18;
-  Align: Center;
-  Letter spacing: 3%;
+  font style: 500;
+  font size: 16px;
+  line height: 1.18;
+  align: Center;
+  letter spacing: 3%;
 }
 
 .item-position {
 
-  Font style: 400;
-  Font size: 16px;
-  Line height: 1.18;
-  Align: Center;
-  Letter spacing: 3%;
+  font style: 400;
+  font size: 16px;
+  line height: 1.18;
+  align: Center;
+  letter spacing: 3%;
 }
 
 /* footer */
@@ -198,19 +198,19 @@ a {
 .footer-contacts .link {
   color: var(--primary-white-color);
 
-  Font style: 400;
-  Font size: 14px;
-  Line height: 1.71;
-  Letter spacing: 3%;
+  font style: 400;
+  font size: 14px;
+  line height: 1.71;
+  letter spacing: 3%;
 }
 
 .footer-contacts .address {
   color: rgba(255, 255, 255, 0.6);
 
-  Font style: 400;
-  Font size: 14px;
-  Line height: 1.71;
-  Letter spacing: 3%;
+  font style: 400;
+  font size: 14px;
+  line height: 1.71;
+  letter spacing: 3%;
 }
 
 .footer-contacts .link:hover,
@@ -228,12 +228,12 @@ a {
 .works-button {
   color: var(--title-text-color);
 
-  Font family: inherit;
-  Font style: 500;
-  Font size: 16px;
-  Line height: 1.62;
-  Align: Center;
-  Letter spacing: 3%;
+  font family: inherit;
+  font style: 500;
+  font size: 16px;
+  line height: 1.62;
+  align: Center;
+  letter spacing: 3%;
 }
 
 .works-button:hover,
@@ -245,16 +245,16 @@ a {
 .works-title {
   color: var(--title-text-color);
 
-  Font style: 700;
-  Font size: 18px;
-  Line height: 2.0;
-  Letter spacing: 6%;
+  font style: 700;
+  font size: 18px;
+  line height: 2.0;
+  letter spacing: 6%;
 }
 
 .works-description {
 
-  Font style: 400;
-  Font size: 16px;
-  Line height: 1.87;
-  Letter spacing: 3%;
+  font style: 400;
+  font size: 16px;
+  line height: 1.87;
+  letter spacing: 3%;
 }
