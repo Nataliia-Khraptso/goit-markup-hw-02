@@ -41,11 +41,11 @@ a {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
 
-  font style: 700;
-  font size: 26px;
-  line height: 1.19;
-  vertical align: top;
-  letter spacing: 3%;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 1.19;
+  vertical-align: top;
+  letter-spacing: 0.03em;
 }
 .header-logo {
   color: #000000;
@@ -55,10 +55,11 @@ a {
 .site-nav .link {
   color: var(--title-text-color);
 
-  font style: 500;
-  font size: 14px;
-  line height: 1.14;
-  letter spacing: 2%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -74,10 +75,11 @@ a {
 .header-contacts .link {
   color: var(--primaty-text-color);
 
-  font style: 500;
-  font size: 14px;
-  line height: 1.14;
-  letter spacing: 2%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .header-contacts .link:hover,
@@ -95,60 +97,63 @@ a {
 .hero-title {
   color: var(--primary-white-color);
 
-  font style: black;
-  font size: 44px;
-  line height: 1.36;
-  align: center;
-  letter spacing: 6%;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .hero-button {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
 
-  font family: inherit;
-  font style: 700;
-  font size: 16px;
-  line height: 1.87;
-  align: center;
-  letter spacing: 6%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Features */
 
 .features {
-  background-color: #E5E5E5;
+  background-color: var(--primary-white-color);
 }
 
 .features-title {
   color: var(--title-text-color);
 
-  font style: 700;
-  font size: 14px;
-  line height: 1.14;
-  letter spacing: 3%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 
 .features-description {
-
-  font style: 400;
-  font size: 14px;
-  line height: 1.71;
-  letter spacing: 3%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* what we do */
 .what-we-do {
-  background-color: #E5E5E5;
+  background-color: var(--primary-white-color);
 }
 .what-we-do-title {
   color: var(--title-text-color);
 
-  font style: 700;
-  font size: 36px;
-  line height: 1.16;
-  align: center;
-  letter spacing: 3%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* team */
@@ -159,30 +164,32 @@ a {
 
 .team-title {
   color: var(--title-text-color);
-  
-  font style: 700;
-  font size: 36px;
-  line height: 1.16;
-  align: center;
-  letter spacing: 3%;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
- .item-title {
+.item-title {
   color: var(--title-text-color);
 
-  font style: 500;
-  font size: 16px;
-  line height: 1.18;
-  align: center;
-  letter spacing: 3%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .item-position {
-
-  font style: 400;
-  font size: 16px;
-  line height: 1.18;
-  align: center;
-  letter spacing: 3%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -198,19 +205,21 @@ a {
 .footer-contacts .link {
   color: var(--primary-white-color);
 
-  font style: 400;
-  font size: 14px;
-  line height: 1.71;
-  letter spacing: 3%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer-contacts .address {
   color: rgba(255, 255, 255, 0.6);
 
-  font style: 400;
-  font size: 14px;
-  line height: 1.71;
-  letter spacing: 3%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .footer-contacts .link:hover,
@@ -223,17 +232,18 @@ a {
 /* works */
 
 .our-works {
-  background-color: #E5E5E5;
+  background-color: var(--primary-white-color);
 }
 .works-button {
   color: var(--title-text-color);
 
-  font family: inherit;
-  font style: 500;
-  font size: 16px;
-  line height: 1.62;
-  align: center;
-  letter spacing: 3%;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .works-button:hover,
@@ -245,16 +255,17 @@ a {
 .works-title {
   color: var(--title-text-color);
 
-  font style: 700;
-  font size: 18px;
-  line height: 2.0;
-  letter spacing: 6%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .works-description {
-
-  font style: 400;
-  font size: 16px;
-  line height: 1.87;
-  letter spacing: 3%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
